@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #a7d7c5;
+    overflow: hidden;
+}
+.cornerDivLeft{
+    width: 750px;
+    height: 650px;
+    top: -235.67px;
+    left: -220px;
+    border-radius: 160px;
+    rotate: 45deg;
+    position: absolute;
+    background-color: #C1E3D6;
+}
+.cornerDivRight{
+    width: 750px;
+    height: 650px;
+    bottom: -356px;
+    right: -220px;
+    border-radius: 160px;
+    rotate: 45deg;
+    position: absolute;
+    background-color: #C1E3D6;
+}
