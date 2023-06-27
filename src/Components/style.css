@@ -27,3 +27,69 @@ body{
     position: absolute;
     background-color: #C1E3D6;
 }
+.sigINContainer{
+    background-color: #fff;
+    width:600px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    padding: 30px;
+    border-radius: 30px;
+}
+.sigINContainer h1{
+    text-align: center;
+    font-weight: 700 ;
+    font-size: 55px;
+    line-height: 71px;
+}
+.sigINContainer p{
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+
+}
+.sigINContainer input{
+    display: block;
+    align-items: center;
+    margin: 50px auto;
+    width: 90%;
+    height: 65px;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+    border-color: lightgrey;
+    outline: none;
+}
+.sigINContainer button{
+    margin: 0 auto;
+    width: 50%;
+    height: 65px;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #a7d7c5;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+}
+#alreadyHaveAccount{
+    margin-top: 20px;
+}
+#alreadyHaveAccount span {
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+  }
